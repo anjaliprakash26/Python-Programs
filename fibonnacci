@@ -1,0 +1,16 @@
+def fib(n):#fibonacci series
+
+        a=0
+        b=1
+        if a<0:
+            breakpoint("wrong input")
+        print(a)
+        print(b)
+        for i in range(2,n):
+
+            c=a+b
+            a=b
+            b=c
+            print(c)
+
+    fib(4)
